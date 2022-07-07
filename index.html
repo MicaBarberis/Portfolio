@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/0a84ca147c.js" crossorigin="anonymous"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./scss/styles.scss">
+
+    <!-- CSS only -->
+    <!--     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"> -->
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400;1,700&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+             <img src="/img/Logo minimalista verde .png" alt="" width="80" height="74">
+            <div class="socialmedia">
+                <i class="fa-solid fa-square-envelope" style="color:#A9D5CB; font-size: 20pt;"></i>
+                <a href="https://www.linkedin.com/in/micaelabarberis/"><i class="fa-brands fa-linkedin" style="color:#5F9595; font-size: 20pt;"></i></a>
+                <a href="https://github.com/MicaBarberis"><i class="fa-brands fa-github-square" style="color:#EFC376; font-size: 20pt;"></i></a>
+                <a href="https://wa.me/qr/JX62H5DXO7RUI1"><i class="fa-brands fa-whatsapp-square" style="color:#F7B4A4; font-size: 20pt;"></i></a>
+            </div>
+        </div>
+    </nav>
+    </header>
+
+    <main>
+
+        <div class="carousel">
+            <picture>
+                <source srcset="/img/banner-tablet.png" media="(min-width: 481px) and (max-width:800px)"
+                    class="img-tablet">
+                <source srcset="/img/banner-pc.png" media="(min-width: 801px) and (max-width:2000px)"
+                    class="img-desktop">
+                <img src="/img/banner-mobile.png" class="d-block w-100" alt="banner de presentación" class="img-mobile">
+            </picture>
+        </div>
+
+        <section class="container-about-me">
+            <h2>Sobre mi</h2>
+            <p class="title-presentation"> Hola! 👋, soy Mica Barberis, encantada de conocerte :)<br><br></p>
+            <p class="presentation"> Soy de Argentina. Me apasiona el diseño gráfico en apps web. Me gusta lo simple en
+                cada detalle. Soy Técnica en
+                comunicación social con orientación en gráfica, y esto me llevó a especializarme un poco más, y así es
+                como comencé a programar y diseñar en paralelo. <br>Soy Frontend Developer, preparandome para Full
+                Stack, y Diseñadora UX/UI. Soy apasionada de la tecnología, naturalmente curiosa y estudio
+                constantemente para mejorar mis habilidades.</p>
+                <a href="https://drive.google.com/file/d/1TsSnns_Ynw5LB9N9P9tEouqtP2ylg90W/view?usp=sharing"><button class="button-cv">Ver CV</button></a>
+        </section>
+
+        <section class="container-knowledge">
+            <h2>Habilidades</h2>
+            <div class="container-habilities">
+            <div class="container-design-uxui">
+                <i class="fa-regular fa-lightbulb"></i>
+                <h3>DESIGN UX/UI</h3>
+                <p class="description">Investigamos el problema y lo convertimos en una idea de app o web. Diseñamos y
+                    creamos un prototipo
+                    mobile first. Comenzamos a plasmar la idea definiendo el MVP, definimos al protopersona. Utilizo
+                    herramientas de prototipo actuales. Luego validamos el proyecto mediante diferentes metodologías y
+                    actividades y lo hacemos realidad. </p>
+            </div>
+        </div>
+        <div class="container-habilities">
+            <div class="container-design-web">
+                <i class="fa-solid fa-desktop"></i>
+                <h3>WEB DESIGN</h3>
+                <p class="description">Creamos el sitio web responsive con HTML y CSS. Optimizamos al máximo el sitio
+                    web implementando
+                    prácticas de versionado de código y preprocesadores. Le damos interactividad y dinamismo con
+                    Javascript. Luego lo subimos al servidor.</p>
+            </div>
+        </div>
+        <div class="container-habilities">
+            <div class="container-graphic-design">
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+                <h3>GRAPHIC DESIGN</h3>
+                <p class="description">Los conocimientos en diseño gráfico me permiten comunicar visualmente la
+                    información, los hechos,
+                    ideas y valores, permitiendo desenvolverme en este mundo creativo.</p>
+            </div>
+        </div>
+        </section>
+
+        <section class="container-tools">
+                <h2>Herramientas técnicas</h2>
+                <div class="containter-tools-icon">
+                    <div class="container-web">
+                        <h4>Web design</h4>
+                        <div>
+                            <i class="fa-brands fa-html5"></i>
+                            <i class="fa-brands fa-css3-alt"></i>
+                            <i class="fa-brands fa-js"></i>
+                            <i class="fa-brands fa-sass"></i>
+                            <i class="fa-brands fa-git-alt"></i>
+                            <i class="fa-brands fa-github"></i>
+                            <i class="fa-brands fa-node"></i>
+                            <i class="fa-brands fa-bootstrap"></i>
+                            <img src="./img/logo api.png" style="max-width: 30px;">
+                        </div>
+                    </div>
+                    <div class="container-uxui">
+                        <h4>Design UX/UI</h4>
+                        <div>
+                            <i class="fa-brands fa-figma"></i>
+                            <img src="./img/optimal-workshop_teammate_profile_(1)-1583707474.png" alt=""
+                                style="max-width: 30px;">
+                            <img src="./img/whimsical.png" alt="" style="max-width: 30px;">
+                            <img src="./img/logo miro.png" alt="" style="max-width: 50px;">
+                        </div>
+                    </div>
+                    <div class="container-design">
+                        <h4>Graphic design</h4>
+                        <div>
+                            <img src="./img/png-clipart-logo-product-design-brand-font-design-purple-violet.png" alt=""
+                                style="max-width: 30px;">
+                            <img src="./img/logo corel.png" alt="" style="max-width: 25px;">
+                            <img src="./img/logo canva.png" alt="" style="max-width: 25px;">
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+<footer>
+    <div class="footer">
+        <h5 class="footer-name">Micaela Barberis</h5>
+        <div class="footer-socialmedia">
+            <i class="fa-solid fa-square-envelope" style="font-size: 15pt;"></i>
+            <a href="https://www.linkedin.com/in/micaelabarberis/"><i class="fa-brands fa-linkedin" style="color: black; font-size: 15pt;"></i></a>
+            <a href="https://github.com/MicaBarberis"><i class="fa-brands fa-github-square" style="color: black; font-size: 15pt;"></i></a>
+            <a href="https://wa.me/qr/JX62H5DXO7RUI1"><i class="fa-brands fa-whatsapp-square" style="color: black; font-size: 15pt;"></i></a>
+        </div>
+    </div>
+
+</footer>
+
+
+
+
+    </main>
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <!--     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script> -->
+
+</body>
+
+</html>
