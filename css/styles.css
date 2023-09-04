@@ -28,6 +28,13 @@ h4 {
   color: white;
   padding-bottom: 1rem; }
 
+h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12pt;
+  color: black;
+  padding-bottom: 1rem;;
+  }
+
 .container {
   background-color: white;
   position: sticky;
@@ -196,6 +203,12 @@ h4 {
 
   .container-servicios{
     background-color: #EFC376;
+    margin-top: 0.5rem;
+    padding-top: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 3rem;
+    text-align: center;
   }
   .servicios{
     font-family: 'Montserrat', sans-serif;
