@@ -142,6 +142,20 @@ h4 {
 .containter-tools-icon {
   display: grid; }
 
+.container-comunicacion{
+  text-align: center;
+  font-size: 20pt;
+  background-color: #A9D5CB;
+  border-radius: 20px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+  margin-bottom: 1rem; 
+}
+
 .container-web {
   text-align: center;
   font-size: 20pt;
@@ -179,6 +193,17 @@ h4 {
   margin-right: 1.5rem;
   margin-left: 1.5rem;
   margin-bottom: 1rem; }
+
+  .container-servicios{
+    background-color: #EFC376;
+  }
+  .servicios{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11pt;
+    color: black;
+    line-height: 1.5;
+    text-align: center;
+  }
 
 .button-cv {
   font-family: 'Montserrat', sans-serif;
