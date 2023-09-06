@@ -49,7 +49,7 @@ h1 {
   margin-right: 2rem; }
 
 .description {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Lora', serif;
   font-size: 10pt;
   color: black;
   text-align: center;
@@ -76,10 +76,12 @@ h1 {
   font-size: 12pt;
   color: white;
   line-height: 1.5;
-  text-align: center; }
+  text-align: center;
+  padding-left: 3rem;
+  padding-right: 3rem; }
 
 .img-mobile {
-  max-width: auto; }
+  max-width:max-content; }
 
 .container-knowledge {
   background-image: url(../img/fondo-section.png);
@@ -89,7 +91,11 @@ h1 {
   margin-top: 0.5rem;
   padding: 2rem;
   text-align: center;
-  display:grid; }
+  display: grid;}
+
+.container-habilities{
+display: grid;
+  }
 
 .container-design-uxui {
   background-color: #5F9595;
