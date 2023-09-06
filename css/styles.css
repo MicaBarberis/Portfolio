@@ -29,8 +29,8 @@ h4 {
   padding-bottom: 1rem; }
 
 h1 {
-  font-family: 'Montserrat', cursive;
-  font-size: 28pt;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 20pt;
   color: black;
   padding-bottom: 1rem;;
   }
@@ -72,8 +72,8 @@ h1 {
   text-align: center; }
 
 .presentation {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 11pt;
+  font-family:'Lora', serif;
+  font-size: 12pt;
   color: white;
   line-height: 1.5;
   text-align: center; }
@@ -224,7 +224,6 @@ h1 {
     font-size: 11pt;
     color: black;
     line-height: 1.5;
-    text-align: center;
   }
 
 .button-cv {
@@ -255,6 +254,11 @@ h5 {
 .footer-socialmedia {
   text-align: center;
   padding-bottom: 1rem; }
+
+ul {
+ list-style-type: none;
+ display: grid;
+}
 
 /*@media (min-width: 481px) and (max-width: 800px) {
   .container-about-me {
