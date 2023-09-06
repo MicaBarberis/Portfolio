@@ -23,9 +23,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400;1,700&display=swap"
         rel="stylesheet">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
 
 
 
@@ -35,7 +35,7 @@
 <body>
     <nav class="navbar">
         <div class="container">
-             <img src="img/Logo.png" alt="" width="160" height="148">
+             <img src="img/Logo.png" alt="logo" width="160" height="148">
             <div class="socialmedia">
                 <i class="fa-solid fa-square-envelope" style="color:#A9D5CB; font-size: 20pt;"></i>
                 <a href="https://www.linkedin.com/in/micaelabarberis/"><i class="fa-brands fa-linkedin" style="color:#5F9595; font-size: 20pt;"></i></a>
@@ -50,19 +50,19 @@
 
         <div class="carousel">
             <picture>
-                <img src="/img/banner-tablet.png" media="(min-width: 801px) and (max-width:1199px)" alt="banner de presentación"
-                    class="img-tablet">
-                <img src="img/banner-pc.png" media="(min-width: 1200px) and (max-width:2000px)" alt="banner de presentación"
-                    class="img-desktop">
-                <img src="/img/banner-mobile.png" media="(min-width: 200px) and (max-width:800px)" alt="banner de presentación"
+                <source srcset="img/banner-mobile.png" media="(min-width: 320px) and (max-width:620px)" alt="banner de presentación"
                     class="img-mobile">
+                <source srcset="/img/banner-tablet.png" media="(min-width: 621px) and (max-width:940x)" alt="banner de presentación"
+                    class="img-tablet">
+                <img src="img/banner-pc.png" class="d-block w-100" alt="banner de presentación"
+                    class="img-desktop">
             </picture>
         </div>
 
         <section class="container-about-me">
             <h2>Sobre mi</h2>
             <p class="title-presentation"> Hola! 👋, soy Mica Barberis, encantada de conocerte :)<br><br></p>
-            <p class="presentation"> Me gusta lo simple en cada detalle. Soy Comunicadora social con orientación en gráfica. Me apasiona Internet y todo lo que ésto conlleva. Gracias a este gusto, seguí especializandome un poco más, y así es
+            <p class="presentation"> Me gusta lo simple en cada detalle. <strong>Soy Comunicadora social con orientación en gráfica.</strong> Me apasiona Internet y todo lo que ésto conlleva. Gracias a este gusto, seguí especializandome un poco más, y así es
                 como comencé a programar y diseñar en paralelo. <br>Soy Frontend Developer y Diseñadora UX/UI. Soy apasionada de la tecnología, naturalmente curiosa y estudio
                 constantemente para mejorar mis habilidades.</p>
                 <a href="https://drive.google.com/file/d/1TsSnns_Ynw5LB9N9P9tEouqtP2ylg90W/view?usp=sharing"><button class="button-cv">Ver CV</button></a>
@@ -70,6 +70,7 @@
 
         <section class="container-knowledge">
             <h2>Habilidades</h2>
+            <div>
             <div class="container-habilities">
                 <div class="container-comunicacion">
                     <i class="fa-solid fa-comments"></i>
@@ -108,19 +109,20 @@
                 - Creamos y mantenemos tu e-commerce para que vendas mucho más!</p>
             </div>
         </div>
+    </div>
         </section>
 
         <section class="container-servicios">
-            <h2>¿Qué te ofrezco?</h2>
-            <ol class="list-group list-group-numbered">
+            <h1>¿Qué te ofrezco?</h1>
+            <ul class="list-group list-group-numbered">
                 <li class="servicios">- Diseñar, ejecutar y evaluar estrategias de comunicación en redes o instituciones.</li>
                 <li class="servicios">- Producir materiales comunicativos en distintos soportes tecnológicos.</li>
                 <li class="servicios">- Brindar tareas de consultoría, asesoramiento, diagnóstico, planificación, gestión y evaluación.</li>
                 <li class="servicios">- Analizar, diseñar y evaluar programas y proyectos de comunicación e información.</li>
-            </ol>
+            </ul>
 
-            <h5>Mis Objetivos</h3>
-                <ol class="list-group list-group-numbered">
+            <h5 >Mis Objetivos</h3>
+                <ul class="list-group list-group-numbered">
                     <li class="servicios">- Dar a conocer tu empresa, producto o servicio.</li>
                     <li class="servicios">- Promocionar un producto o servicio concreto.</li>
                     <li class="servicios">- Gestionar tu reputación corporativa.</li>
@@ -128,7 +130,7 @@
                     <li class="servicios">- Maximizar tu empresa en las redes.</li>
                     <li class="servicios">- Desarrollar o mejoro tu imágen- Branding.</li>
                     <li class="servicios">- Potenciar la captación de los clientes, retenerlos y fidelizarlos.</li>
-                </ol>
+                </ul>
         </section>
 
         <section class="container-tools">

@@ -7,7 +7,7 @@ main {
   font-family: 'Lora', serif; }
 
 h2 {
-  font-family: 'Great Vibes', cursive;
+  font-family: 'Architects Daughter', cursive;
   font-size: 30pt;
   color: black;
   text-align: center;
@@ -28,7 +28,7 @@ h4 {
   color: white;
   padding-bottom: 1rem; }
 
-h5 {
+h1 {
   font-family: 'Montserrat', cursive;
   font-size: 28pt;
   color: black;
@@ -88,7 +88,8 @@ h5 {
   width: auto;
   margin-top: 0.5rem;
   padding: 2rem;
-  text-align: center; }
+  text-align: center;
+  display:grid; }
 
 .container-design-uxui {
   background-color: #5F9595;
@@ -217,7 +218,6 @@ h5 {
     padding-left: 2rem;
     padding-right: 2rem;
     padding-bottom: 3rem;
-    text-align: center;
   }
   .servicios{
     font-family: 'Montserrat', sans-serif;
@@ -256,7 +256,7 @@ h5 {
   text-align: center;
   padding-bottom: 1rem; }
 
-@media (min-width: 481px) and (max-width: 800px) {
+/*@media (min-width: 481px) and (max-width: 800px) {
   .container-about-me {
     margin-top: 0.5rem;
     padding-top: 3rem;
@@ -265,9 +265,9 @@ h5 {
     padding-bottom: 3rem;
     text-align: center; }
   .img-tablet {
-    width: 100%; } }
+    width: auto; } }
 
-@media (min-width: 1200px) and (max-width: 2000px) {
+/*@media (min-width: 1200px) and (max-width: 2000px) {
   .img-desktop {
     width: auto; }
   .presentation {
@@ -295,6 +295,6 @@ h5 {
     text-align: right;
     margin-right: 5rem; } }
 
-    @media (min-width: 200px) and (max-width: 800px) {
+ /*   @media (min-width: 200px) and (max-width: 800px) {
       .img-mobile {
         width: auto; } }
