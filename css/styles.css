@@ -32,8 +32,15 @@ h1 {
   font-family: 'Architects Daughter', cursive;
   font-size: 20pt;
   color: black;
-  padding-bottom: 1rem;;
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+  text-align: center;
   }
+
+li{
+  text-align: left;
+  line-height: 1.5;
+}
 
 .container {
   background-color: white;
@@ -48,11 +55,17 @@ h1 {
 .socialmedia {
   margin-right: 2rem; }
 
+.w-100 {
+  width: auto !important;
+  height: 100%;
+  width: 100%;
+}
+
 .description {
   font-family: 'Lora', serif;
   font-size: 10pt;
   color: black;
-  text-align: center;
+  text-align: left;
   line-height: 1.5; }
 
 .container-about-me {
@@ -65,8 +78,8 @@ h1 {
   text-align: center; }
 
 .title-presentation {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 14pt;
+  font-family: 'Lora', serif;
+  font-size: 18pt;
   font-weight: 200;
   color: white;
   text-align: center; }
@@ -90,11 +103,11 @@ h1 {
   width: auto;
   margin-top: 0.5rem;
   padding: 2rem;
-  text-align: center;
-  display: grid;}
+  text-align: center;}
 
-.container-habilities{
-display: grid;
+.container-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 
 .container-design-uxui {
@@ -224,6 +237,9 @@ display: grid;
     padding-left: 2rem;
     padding-right: 2rem;
     padding-bottom: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
   }
   .servicios{
     font-family: 'Montserrat', sans-serif;
@@ -232,7 +248,7 @@ display: grid;
     line-height: 1.5;
   }
 
-.button-cv {
+/*.button-cv {
   font-family: 'Montserrat', sans-serif;
   background-color: white;
   padding: 0.8rem;
@@ -244,26 +260,31 @@ display: grid;
 
 .button-cv:hover {
   background-color: #EFC376;
-  color: black; }
+  color: black; } */
 
 footer {
   background-color: #DDDDDD;
-  display: flexbox; }
+}
+  .footer{
+    display: flexbox; 
+  }
 
 h5 {
   font-family: 'Montserrat', sans-serif;
   font-size: 8pt;
-  text-align: center;
+  text-align: left;
   padding-top: 1.5rem;
-  padding-bottom: 1rem; }
+  padding-bottom: 1rem;
+  padding-left: 2rem; }
 
 .footer-socialmedia {
-  text-align: center;
-  padding-bottom: 1rem; }
+  text-align: right;
+  padding-bottom: 1rem;
+  padding-right: 2rem; }
 
-ul {
+.list-group {
  list-style-type: none;
- display: grid;
+ display: flex;
 }
 
 /*@media (min-width: 481px) and (max-width: 800px) {
