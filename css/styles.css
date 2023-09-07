@@ -93,9 +93,6 @@ li{
   padding-left: 3rem;
   padding-right: 3rem; }
 
-.img-mobile {
-  max-width:max-content; }
-
 .container-knowledge {
   background-image: url(../img/fondo-section.png);
   background-size: cover;
@@ -105,7 +102,7 @@ li{
   padding: 2rem;
   text-align: center;}
 
-.container-container{
+.containter-container{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   }
@@ -287,7 +284,7 @@ h5 {
  list-style-type: none;
 }
 
-/*@media (min-width: 481px) and (max-width: 800px) {
+@media (min-width: 320px) and (max-width: 620px) {
   .container-about-me {
     margin-top: 0.5rem;
     padding-top: 3rem;
@@ -295,8 +292,34 @@ h5 {
     padding-right: 4rem;
     padding-bottom: 3rem;
     text-align: center; }
-  .img-tablet {
-    width: auto; } }
+  .img-mobile {
+    height: 100%;
+    width: 100%; }
+  .presentation {
+    font-family:'Lora', serif;
+    font-size: 12pt;
+    color: white;
+    line-height: 1.5;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem; }
+  .containter-container{
+    display: grid;
+  }
+  .container-servicios{
+    background-color: #EFC376;
+    margin-top: 0.5rem;
+    padding-top: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 3rem;
+    display: grid;
+    text-align: center;
+  }
+  .containter-tools-icon{
+    display: grid;
+  }
+   }
 
 /*@media (min-width: 1200px) and (max-width: 2000px) {
   .img-desktop {
