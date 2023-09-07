@@ -27,6 +27,9 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
 
+        <!--AOS-->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 
 
     <title>Portfolio</title>
@@ -50,12 +53,11 @@
 
         <div class="carousel">
             <picture>
-                <source srcset="img/banner-mobile.png" media="(min-width: 320px) and (max-width:620px)" alt="banner de presentación"
+                <source src="img/banner-mobile.png" media="(min-width: 320px) and (max-width:620px)" alt="banner de presentación"
                     class="img-mobile">
-                <source srcset="/img/banner-tablet.png" media="(min-width: 621px) and (max-width:940x)" alt="banner de presentación"
+                <source src="img/banner-tablet.png" media="(min-width: 621px) and (max-width:940x)" alt="banner de presentación"
                     class="img-tablet">
-                <img src="img/banner-pc.png" class="d-block w-100" alt="banner de presentación"
-                    class="img-desktop">
+                <img src="img/banner-pc.png" class="img-desktop" alt="banner de presentación">
             </picture>
         </div>
 
@@ -64,13 +66,14 @@
             <p class="title-presentation"> Hola! 👋 encantada de conocerte 😁<br><br></p>
             <p class="presentation"> <strong>Soy Comunicadora social con orientación en gráfica.</strong> Me apasiona Internet y todo lo que ésto conlleva. Gracias a este gusto, seguí especializandome un poco más, y así es
                 como comencé a programar y diseñar en paralelo. <br>Soy Frontend Developer y Diseñadora UX/UI. Soy apasionada de la tecnología, naturalmente curiosa y estudio
-                constantemente para mejorar mis habilidades. <br> Te propongo que juntos impulsemos tu empresa para lograr llegar a nuevas personas o simplemente fidelizar las que ya están. Además, no hay Marketing más potente que tener empleados satisfechos, o no? <br><strong> Hablemos y te cuento más 😊</strong></p>
-                <a href="https://api.whatsapp.com/message/PI4ALBE2YOQ3B1?autoload=1&app_absent=0"><i class="fa-brands fa-whatsapp-square" style="color:#EA845D; font-size: 40pt;"></i></a>
+                constantemente para mejorar mis habilidades. <br> Te propongo que juntos impulsemos tu empresa para lograr llegar a nuevas personas o simplemente fidelizar las que ya están. Además, no hay Marketing más potente que tener empleados satisfechos, o no? <br><br><strong> Hablemos y te cuento más 😊</strong></p>
+                <a href="https://api.whatsapp.com/message/PI4ALBE2YOQ3B1?autoload=1&app_absent=0"><i class="fa-brands fa-whatsapp-square" style="color:white; font-size: 40pt; padding-top: 2rem"></i></a>
         </section>
 
         <section class="container-knowledge">
             <h2>¿Qué te ofrezco?</h2>
             <div class="containter-container">
+                <div data-aos="zoom-in">
             <div class="container-habilities">
                 <div class="container-comunicacion">
                     <i class="fa-solid fa-comments"></i>
@@ -82,6 +85,8 @@
                     </ul>
                 </div>
             </div>
+            </div>
+            <div data-aos="zoom-in">
             <div class="container-habilities">
                 <div class="container-graphic-design">
                     <i class="fa-solid fa-wand-magic-sparkles"></i>
@@ -94,6 +99,8 @@
 </ul>
                 </div>
             </div>
+        </div>
+        <div data-aos="zoom-in">
             <div class="container-habilities">
             <div class="container-design-uxui">
                 <i class="fa-regular fa-lightbulb"></i>
@@ -105,6 +112,8 @@
                     <li>- Luego validamos el proyecto mediante diferentes metodologías y actividades y lo hacemos realidad.</li> </ul>
             </div>
         </div>
+    </div>
+    <div data-aos="zoom-in">
         <div class="container-habilities">
             <div class="container-design-web">
                 <i class="fa-solid fa-desktop"></i>
@@ -117,6 +126,7 @@
             </div>
         </div>
     </div>
+    </div>
         </section>
 
         <section class="container-servicios">
@@ -127,7 +137,7 @@
                 <li class="servicios">- Brindar tareas de consultoría, asesoramiento, diagnóstico, planificación, gestión y evaluación.</li>
                 <li class="servicios">- Analizar, diseñar y evaluar programas y proyectos de comunicación e información.</li>
             </ul>
-            <h1>Mis Objetivos específicos</h1>
+
 
                 <ul class="list-group list-group-numbered">
                     <li class="servicios">- Dar a conocer tu empresa, producto o servicio.</li>

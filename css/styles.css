@@ -55,8 +55,7 @@ li{
 .socialmedia {
   margin-right: 2rem; }
 
-.w-100 {
-  width: auto !important;
+.img-desktop {
   height: 100%;
   width: 100%;
 }
@@ -66,7 +65,8 @@ li{
   font-size: 10pt;
   color: black;
   text-align: left;
-  line-height: 1.5; }
+  line-height: 1.5;
+  list-style: none; }
 
 .container-about-me {
   background-color: #EA845D;
@@ -176,7 +176,8 @@ li{
     padding-right: 1rem; */ }
 
 .containter-tools-icon {
-  display: grid; }
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;}
 
 .container-comunicacion{
   text-align: center;
@@ -284,7 +285,6 @@ h5 {
 
 .list-group {
  list-style-type: none;
- display: flex;
 }
 
 /*@media (min-width: 481px) and (max-width: 800px) {
