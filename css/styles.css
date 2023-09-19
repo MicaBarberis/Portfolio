@@ -235,10 +235,12 @@ li{
 
   .container-servicios{
     background-color: #EFC376;
-    padding-top: 3rem;
+    padding-top: 1rem;
     padding-left: 2rem;
     padding-right: 2rem;
     padding-bottom: 3rem;
+    border-left-style: solid;
+    border-color: white;
   }
   .servicios{
     font-size: 11pt;
@@ -247,17 +249,8 @@ li{
     flex-direction: column;
     padding-top: 1rem;
     padding-right: 1rem;
-    padding-bottom: 1rem;
     padding-left: 1rem;
-    border-top-width: 1px;
-    border-top-style: solid;
-    border-right-width: 1px;
-    border-right-style: solid;
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-    border-left-width: 1px;
-    border-left-style: solid;
-    border-color: white;
+
 }
 
 
