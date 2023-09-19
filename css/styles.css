@@ -42,6 +42,10 @@ li{
   line-height: 1.5;
 }
 
+.tittle{
+  background-color: #EFC376;
+}
+
 .container {
   background-color: white;
   position: sticky;
@@ -240,16 +244,15 @@ li{
     text-align: center;
   }
   .servicios{
-    font-family: 'Montserrat', sans-serif;
     font-size: 11pt;
     color: black;
     display: flex;
     flex-direction: column;
     width: calc(33% - 20px);
-    padding-top: 3rem;
-    padding-right: 2rem;
-    padding-bottom: 3rem;
-    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
     border-top-width: 1px;
     border-top-style: solid;
     border-right-width: 1px;
@@ -260,7 +263,7 @@ li{
     border-left-style: solid;
     border-color: white;
 }
-  }
+
 
 /*.button-cv {
   font-family: 'Montserrat', sans-serif;
@@ -298,7 +301,6 @@ h5 {
 
 .list-group {
  list-style-type: none;
- margin-left: 5rem;
  display: flex;
  column-gap: 20px;
  row-gap: 20px;
@@ -352,6 +354,7 @@ h5 {
   .containter-tools-icon{
     display: block;
   }
+
    }
 
 /*@media (min-width: 1200px) and (max-width: 2000px) {
