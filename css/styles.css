@@ -44,6 +44,7 @@ li{
 
 .tittle{
   background-color: #EFC376;
+  text-align: center;
 }
 
 .container {
@@ -234,7 +235,6 @@ li{
 
   .container-servicios{
     background-color: #EFC376;
-    margin-top: 0.5rem;
     padding-top: 3rem;
     padding-left: 2rem;
     padding-right: 2rem;
@@ -248,7 +248,6 @@ li{
     color: black;
     display: flex;
     flex-direction: column;
-    width: calc(33% - 20px);
     padding-top: 1rem;
     padding-right: 1rem;
     padding-bottom: 1rem;
