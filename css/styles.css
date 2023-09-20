@@ -44,7 +44,7 @@ li{
 
 .tittle{
   background-color: #EFC376;
-  text-align: center;
+  text-align: left;
 }
 
 .container {
@@ -80,13 +80,6 @@ li{
   padding-left: 2rem;
   padding-right: 2rem;
   padding-bottom: 3rem;
-  text-align: center; }
-
-.title-presentation {
-  font-family: 'Lora', serif;
-  font-size: 18pt;
-  font-weight: 200;
-  color: white;
   text-align: center; }
 
 .presentation {
@@ -234,7 +227,6 @@ li{
   margin-bottom: 1rem; }
 
   .container-servicios{
-    background-color: #EFC376;
     padding-top: 1rem;
     padding-left: 2rem;
     padding-right: 2rem;
@@ -243,10 +235,6 @@ li{
     border-color: white;
   }
   .servicios{
-    font-size: 11pt;
-    color: black;
-    display: flex;
-    flex-direction: column;
     padding-top: 1rem;
     padding-right: 1rem;
     padding-left: 1rem;
@@ -296,6 +284,11 @@ h5 {
  flex-wrap: wrap;
 }*/
 
+.section-servicios{
+  display: flex;
+  background: #EFC376;
+}
+
 .mision{
   background-color: #A9D5CB;
   margin-top: 0.5rem;
@@ -344,6 +337,10 @@ h5 {
     display: block;
   }
 
+  .section-servicios{
+    display: flow-root;
+    background: #EFC376;
+  }
    }
 
 /*@media (min-width: 1200px) and (max-width: 2000px) {
